@@ -1,1 +1,5 @@
 REPORT_SCC_403_Data_Mining_Coursework.pdf
+.DS_Store
+__pycache__
+.ipynb_checkpoints
+.gitignore
