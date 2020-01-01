@@ -1,0 +1,62 @@
+[Original Data (No Sampling)]
+[RBFNN Abalone] Test set results after 5 iterations:
+Average accuracy: 99.26%
+Average precision: 0.0%
+Average recall: 0.0%
+Average f1: 0.0%
+
+[Data After Undersampling Majority Class]
+[RBFNN Abalone] Test set results after 10 iterations:
+Average accuracy: 48.64%
+Average precision: 53.85%
+Average recall: 55.38%
+Average f1: 51.16%
+
+[Data After SMOTE]
+[RBFNN Abalone] Test set results after 10 iterations:
+Average accuracy: 67.57%
+Average precision: 64.06%
+Average recall: 80.63%
+Average f1: 70.72%
+
+[Data After Undersampling Majority Class]
+[Shallow NN Abalone] Test set results after 10 iterations:
+Average accuracy: 45.00%
+Average precision: 29.5%
+Average recall: 59.5%
+Average f1: 39.33%
+
+[Data After SMOTE]
+[Shallow NN Abalone] Test set results after 10 iterations:
+Average accuracy: 67.59%
+Average precision: 64.27%
+Average recall: 79.63%
+Average f1: 71.12%
+
+[Data After Undersampling Majority Class]
+[Logistic Regression Mushroom] Test set results after 10 iterations:
+Average accuracy: 45.00%
+Average precision: 59.0%
+Average recall: 27.04%
+Average f1: 36.52%
+
+[Data After SMOTE]
+[Logistic Regression Mushroom] Test set results after 10 iterations:
+Average accuracy: 81.00%
+Average precision: 81.06%
+Average recall: 80.41%
+Average f1: 80.74%
+
+[Data After Undersampling Majority Class]
+[Decision Tree Neighbor Mushroom] Test set results after 10 iterations:
+Average accuracy: 47.5%
+Average precision: 0.0%
+Average recall: 0.0%
+Average f1: 0.0%
+
+[Data After SMOTE]
+[Decision Tree Neighbor Mushroom] Test set results after 10 iterations:
+Average accuracy: 73.934%
+Average precision: 66.60499999999999%
+Average recall: 95.092%
+Average f1: 78.325%

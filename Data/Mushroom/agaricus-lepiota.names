@@ -1,6 +1,6 @@
 1. Title: Mushroom Database
 
-2. Sources: 
+2. Sources:
     (a) Mushroom records drawn from The Audubon Society Field Guide to North
         American Mushrooms (1981). G. H. Lincoff (Pres.), New York: Alfred
         A. Knopf
@@ -14,10 +14,10 @@
        --- STAGGER: asymptoted to 95% classification accuracy after reviewing
            1000 instances.
     2. Iba,W., Wogulis,J., & Langley,P. (1988).  Trading off Simplicity
-       and Coverage in Incremental Concept Learning. In Proceedings of 
+       and Coverage in Incremental Concept Learning. In Proceedings of
        the 5th International Conference on Machine Learning, 73-79.
-       Ann Arbor, Michigan: Morgan Kaufmann.  
-       -- approximately the same results with their HILLARY algorithm    
+       Ann Arbor, Michigan: Morgan Kaufmann.
+       -- approximately the same results with their HILLARY algorithm
     3. In the following references a set of rules (given below) were
 	learned for this data set which may serve as a point of
 	comparison for other researchers.
@@ -37,7 +37,7 @@
 	University, 87-100 Torun, Grudziadzka 5, Poland
 	e-mail: duch@phys.uni.torun.pl
 	WWW     http://www.phys.uni.torun.pl/kmk/
-	
+
 	Date: Mon, 17 Feb 1997 13:47:40 +0100
 	From: Wlodzislaw Duch <duch@phys.uni.torun.pl>
 	Organization: Dept. of Computer Methods, UMK
@@ -63,13 +63,13 @@
 
 	P_2) spore-print-color=green
 	     48 cases missed, 99.41% accuracy
-         
+
 	P_3) odor=none.AND.stalk-surface-below-ring=scaly.AND.
-	          (stalk-color-above-ring=NOT.brown) 
+	          (stalk-color-above-ring=NOT.brown)
 	     8 cases missed, 99.90% accuracy
-         
+
 	P_4) habitat=leaves.AND.cap-color=white
-	         100% accuracy     
+	         100% accuracy
 
 	Rule P_4) may also be
 
@@ -105,44 +105,44 @@
 
 7. Attribute Information: (classes: edible=e, poisonous=p)
      1. cap-shape:                bell=b,conical=c,convex=x,flat=f,
-                                  knobbed=k,sunken=s
-     2. cap-surface:              fibrous=f,grooves=g,scaly=y,smooth=s
-     3. cap-color:                brown=n,buff=b,cinnamon=c,gray=g,green=r,
-                                  pink=p,purple=u,red=e,white=w,yellow=y
-     4. bruises?:                 bruises=t,no=f
+                                  knobbed=k,sunken=s 6
+     2. cap-surface:              fibrous=f,grooves=g,scaly=y,smooth=s 4
+     3. cap-color:                brown=n,buff=b,cinnamon=c,gray=g,green=r, 
+                                  pink=p,purple=u,red=e,white=w,yellow=y 10
+     4. bruises?:                 bruises=t,no=f 2
      5. odor:                     almond=a,anise=l,creosote=c,fishy=y,foul=f,
-                                  musty=m,none=n,pungent=p,spicy=s
-     6. gill-attachment:          attached=a,descending=d,free=f,notched=n
-     7. gill-spacing:             close=c,crowded=w,distant=d
-     8. gill-size:                broad=b,narrow=n
+                                  musty=m,none=n,pungent=p,spicy=s 9
+     6. gill-attachment:          attached=a,descending=d,free=f,notched=n 4
+     7. gill-spacing:             close=c,crowded=w,distant=d 3
+     8. gill-size:                broad=b,narrow=n 2
      9. gill-color:               black=k,brown=n,buff=b,chocolate=h,gray=g,
                                   green=r,orange=o,pink=p,purple=u,red=e,
-                                  white=w,yellow=y
-    10. stalk-shape:              enlarging=e,tapering=t
+                                  white=w,yellow=y 12
+    10. stalk-shape:              enlarging=e,tapering=t 2
     11. stalk-root:               bulbous=b,club=c,cup=u,equal=e,
-                                  rhizomorphs=z,rooted=r,missing=?
-    12. stalk-surface-above-ring: fibrous=f,scaly=y,silky=k,smooth=s
-    13. stalk-surface-below-ring: fibrous=f,scaly=y,silky=k,smooth=s
+                                  rhizomorphs=z,rooted=r,missing=? 6/7
+    12. stalk-surface-above-ring: fibrous=f,scaly=y,silky=k,smooth=s 4
+    13. stalk-surface-below-ring: fibrous=f,scaly=y,silky=k,smooth=s 4
     14. stalk-color-above-ring:   brown=n,buff=b,cinnamon=c,gray=g,orange=o,
-                                  pink=p,red=e,white=w,yellow=y
+                                  pink=p,red=e,white=w,yellow=y 9
     15. stalk-color-below-ring:   brown=n,buff=b,cinnamon=c,gray=g,orange=o,
-                                  pink=p,red=e,white=w,yellow=y
-    16. veil-type:                partial=p,universal=u
-    17. veil-color:               brown=n,orange=o,white=w,yellow=y
-    18. ring-number:              none=n,one=o,two=t
+                                  pink=p,red=e,white=w,yellow=y 9
+    16. veil-type:                partial=p,universal=u 2
+    17. veil-color:               brown=n,orange=o,white=w,yellow=y 4
+    18. ring-number:              none=n,one=o,two=t 2
     19. ring-type:                cobwebby=c,evanescent=e,flaring=f,large=l,
-                                  none=n,pendant=p,sheathing=s,zone=z
+                                  none=n,pendant=p,sheathing=s,zone=z 8
     20. spore-print-color:        black=k,brown=n,buff=b,chocolate=h,green=r,
-                                  orange=o,purple=u,white=w,yellow=y
+                                  orange=o,purple=u,white=w,yellow=y 9
     21. population:               abundant=a,clustered=c,numerous=n,
-                                  scattered=s,several=v,solitary=y
+                                  scattered=s,several=v,solitary=y 6
     22. habitat:                  grasses=g,leaves=l,meadows=m,paths=p,
-                                  urban=u,waste=w,woods=d
+                                  urban=u,waste=w,woods=d 7
 
 8. Missing Attribute Values: 2480 of them (denoted by "?"), all for
    attribute #11.
 
-9. Class Distribution: 
+9. Class Distribution:
     --    edible: 4208 (51.8%)
     -- poisonous: 3916 (48.2%)
     --     total: 8124 instances
